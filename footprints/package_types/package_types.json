@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "description": "others",
+        "package_type": "unknown",
+        "mount_type": "THT",
+        "package_figure": "",
+        "dimension_figure": ""
+    },
+    {
+        "id": 2,
+        "description": "Ball Grid Array",
+        "package_type": "BGA",
+        "mount_type": "SMD",
+        "package_figure": "figures/package-002.png",
+        "dimension_figure": "figures/dimension-002.png"
+    }
+]
