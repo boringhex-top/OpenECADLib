@@ -7,7 +7,9 @@ assignees: [""]
 body:
   - type: markdown
     attributes:
-      value: "**Describe the bug**"
+      value: |
+        Thanks for taking the time to fill out this bug report!
+
   - type: textarea
     id: bug-description
     attributes:
@@ -16,10 +18,7 @@ body:
     validations:
       required: true
 
-  - type: markdown
-    attributes:
-      value: "**Type**"
-  - type: checkboxes
+  - type: dropdown
     id: bug-type
     attributes:
       label: Which type of bug is this?
@@ -39,9 +38,6 @@ body:
     validations:
       required: false
 
-  - type: markdown
-    attributes:
-      value: "**To Reproduce**"
   - type: input
     id: bug-file
     attributes:
@@ -49,17 +45,11 @@ body:
     validations:
       required: true
 
-  - type: markdown
-    attributes:
-      value: "**Screenshots**"
-  - type: input
+  - type: textarea
     id: bug-screenshots
     attributes:
       label: If applicable, add screenshots to help explain your problem.
 
-  - type: markdown
-    attributes:
-      value: "**Additional context**"
   - type: textarea
     id: bug-context
     attributes:
