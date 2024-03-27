@@ -10,7 +10,7 @@ body:
     attributes:
       label: Description
       description: Provide a brief description of the proposed package type.
-    validation:
+    validations:
       required: true
 
   - type: dropdown
@@ -22,7 +22,7 @@ body:
         - SMT
         - THT
         - MIX
-    validation:
+    validations:
       required: true
 
   - type: input
@@ -31,7 +31,7 @@ body:
       label: Package Type
       description: Enter the type of the proposed package.
       placeholder: e.g. QFP, BGA
-    validation: 
+    validations: 
       required: true
 
   - type: textarea
@@ -39,7 +39,7 @@ body:
     attributes:
       label: Package Figure
       description: Paste or upload  figure of the proposed package.
-    validation: 
+    validations: 
       required: true
       
   - type: textarea
@@ -47,5 +47,5 @@ body:
     attributes:
       label: Dimension Figure
       description: Paste or upload a dimension figure of the proposed package.
-    validation: 
+    validations: 
       required: true
