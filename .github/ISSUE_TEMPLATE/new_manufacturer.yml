@@ -26,9 +26,9 @@ body:
       label: Is the Manufacturer Chinese?
       description: Specify whether the manufacturer is Chinese or not.
       options:
-        - true
-        - false
-      default: false
+        - "true"
+        - "false
+      default: 2
     validations:
       required: true
 
