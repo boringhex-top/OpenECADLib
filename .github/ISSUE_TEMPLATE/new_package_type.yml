@@ -1,0 +1,51 @@
+name: New Package Type
+description: Propose a new package type
+title: "[New Package Type]: "
+labels:
+  - proposal
+
+body:
+  - type: input
+    id: description
+    attributes:
+      label: Description
+      description: Provide a brief description of the proposed package type.
+    validation:
+      required: true
+
+  - type: dropdown
+    id: mount_type
+    attributes:
+      label: Mount Type
+      description: Choose the mount type of the proposed package type.
+      options:
+        - SMT
+        - THT
+        - MIX
+    validation:
+      required: true
+
+  - type: input
+    id: package_type
+    attributes:
+      label: Package Type
+      description: Enter the type of the proposed package.
+      placeholder: e.g. QFP, BGA
+    validation: 
+      required: true
+
+  - type: textarea
+    id: package_figure
+    attributes:
+      label: Package Figure
+      description: Paste or upload  figure of the proposed package.
+    validation: 
+      required: true
+      
+  - type: textarea
+    id: dimension_figure
+    attributes:
+      label: Dimension Figure
+      description: Paste or upload a dimension figure of the proposed package.
+    validation: 
+      required: true
