@@ -28,7 +28,7 @@ body:
       options:
         - "true"
         - "false"
-      default: 2
+      default: 1
     validations:
       required: true
 
