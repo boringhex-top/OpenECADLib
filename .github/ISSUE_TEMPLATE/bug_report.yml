@@ -13,7 +13,8 @@ body:
   - type: textarea
     id: bug-description
     attributes:
-      label: A clear and concise description of what the bug is.
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
       placeholder: Bug description
     validations:
       required: true
@@ -21,36 +22,36 @@ body:
   - type: dropdown
     id: bug-type
     attributes:
-      label: Which type of bug is this?
+      label: Type
+      description: Which type of bug is this?
       options:
-        - label: Symbol
-        - label: Footprint
-        - label: 3D Model
-        - label: Simulation Model
-        - label: Other (please specify)
+        - Symbol
+        - Footprint
+        - 3D Model
+        - Simulation Model
+        - Other (please specify)
     validations:
       required: true
   - type: input
     id: bug-other-type
     attributes:
-      label: Please specify
+      label: Other type
+      description: Please specify
       placeholder: Other type
-    validations:
-      required: false
 
   - type: input
     id: bug-file
     attributes:
-      label: Which file is causing the issue?
+      label: Bugged file
+      description: Which file is causing the issue?
     validations:
       required: true
 
   - type: textarea
-    id: bug-screenshots
-    attributes:
-      label: If applicable, add screenshots to help explain your problem.
-
-  - type: textarea
     id: bug-context
     attributes:
-      label: Add any other context about the problem here, e.g. reference documents(attachment or url).
+      label: Addional context
+      description: |
+        If applicable, add screenshots to help explain your problem.
+        You can also provide any other context here, such as reference documents.
+        These can be attachments or URLs.
