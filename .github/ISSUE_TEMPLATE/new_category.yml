@@ -1,0 +1,27 @@
+name: New Category
+description: Propose a new category for the component
+title: "[New Category]: Enter the category name"
+
+body:
+  - type: input
+    id: category
+    attributes:
+      label: Category
+      description: Provide a category name.
+    validations:
+      required: true
+
+  - type: input
+    id: description
+    attributes:
+      label: Description
+      description: Provide a brief description of the proposed package type.
+    validations:
+      required: true
+
+  - type: input
+    id: parent_id
+    attributes:
+      label: Parent Category
+      description: If applicable enter a parent category id.
+      placeholder: e.g. 2
