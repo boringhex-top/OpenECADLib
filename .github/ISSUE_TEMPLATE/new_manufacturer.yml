@@ -1,0 +1,57 @@
+name: New Manufacturer
+description: Use this template to submit information about a new manufacturer.
+title: "[New Manufacturer]: Enter Manufacturer Name Here"
+labels: new manufacturer
+
+body:
+  - type: input
+    id: manufacturer_name_cn
+    attributes:
+      label: Manufacturer Name (Chinese)
+      description: Enter the name of the manufacturer in Chinese.
+    validations:
+      required: true
+
+  - type: input
+    id: manufacturer_name_en
+    attributes:
+      label: Manufacturer Name (English)
+      description: Enter the name of the manufacturer in English.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: is_chinese
+    attributes:
+      label: Is the Manufacturer Chinese?
+      description: Specify whether the manufacturer is Chinese or not.
+      options:
+        - true
+        - false
+      default: false
+    validations:
+      required: true
+
+  - type: input
+    id: logo
+    attributes:
+      label: Manufacturer Logo
+      description: Upload the logo of the manufacturer.
+    validations:
+      required: true
+
+  - type: input
+    id: website
+    attributes:
+      label: Manufacturer Website
+      description: Enter the website URL of the manufacturer.
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Manufacturer Description
+      description: Enter a brief description of the manufacturer.
+    validations:
+      required: true
