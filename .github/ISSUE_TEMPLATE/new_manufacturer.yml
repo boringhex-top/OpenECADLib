@@ -27,7 +27,7 @@ body:
       description: Specify whether the manufacturer is Chinese or not.
       options:
         - "true"
-        - "false
+        - "false"
       default: 2
     validations:
       required: true
