@@ -49,3 +49,31 @@ For Altium Designer, KiCad...
 ---
 
 **注意：** 如果您遇到任何问题或有建议，请在[问题页面](https://github.com/boringhex-top/OpenECADLib/issues)上提出，或加入我们的[社区论坛讨论](https://github.com/boringhex-top/OpenECADLib/discussions)。
+
+## 支持我们
+
+我们非常感谢你考虑支持我们的项目！你的支持将帮助我们继续改进和扩展这个项目。
+
+### 如何捐助
+
+如果你想要捐款支持我们的项目，你可以点击下面的捐助按钮：
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T5X0A38)
+
+这将会带你到我们的Ko-fi页面，你可以在那里进行捐款。
+
+或者直接使用支付宝/微信进行捐助：
+
+[<img src="https://imgs.boringhex.top/blog/圆角-alipay.webp" alt="Alipay" width="200"/>](https://imgs.boringhex.top/blog/alipay.webp)
+
+[<img src="https://imgs.boringhex.top/blog/圆角-wechatpay.webp" alt="Wechatpay" width="200"/>](https://imgs.boringhex.top/blog/wechatpay.webp)
+
+
+### 其他支持方式
+
+除了捐款，还有许多其他方式可以支持我们的项目：
+
+- 贡献代码： 我们欢迎所有的代码贡献，无论是新功能，bug修复，还是文档改进。
+- 宣传项目： 你可以通过在社交媒体上分享我们的项目，或者向你的朋友和同事推荐我们的项目来帮助我们。
+
+再次感谢你的支持！
