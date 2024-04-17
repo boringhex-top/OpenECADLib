@@ -50,3 +50,29 @@ We would like to express our gratitude to the contributors who have helped make 
 
 **Note:** If you encounter any issues or have suggestions, please open an [issue](https://github.com/boringhex-top/OpenECADLib/issues) or join the discussion in our [community forum](https://github.com/boringhex-top/OpenECADLib/discussions).
 
+## Support Us
+
+We greatly appreciate your consideration to support our project! Your support will help us continue to improve and expand this project.
+
+### How to Donate
+
+If you wish to make a donation to support our project, you can click on the donation button below:
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T5X0A38)
+
+This will take you to our Ko-fi page, where you can make a donation.
+
+Or you can directly use Alipay/WeChat to donate:
+
+[<img src="https://imgs.boringhex.top/blog/圆角-alipay.webp" alt="Alipay" width="200"/>](https://imgs.boringhex.top/blog/alipay.webp)
+
+[<img src="https://imgs.boringhex.top/blog/圆角-wechatpay.webp" alt="Wechatpay" width="200"/>](https://imgs.boringhex.top/blog/wechatpay.webp)
+
+### Other Ways to Support
+
+In addition to donations, there are many other ways to support our project:
+
+- Contribute Code: We welcome all code contributions, whether it's new features, bug fixes, or documentation improvements.
+- Promote the Project: You can help us by sharing our project on social media, or recommending our project to your friends and colleagues.
+
+Thank you again for your support!
