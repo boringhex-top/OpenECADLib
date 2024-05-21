@@ -1,0 +1,96 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=MSDASQL.1;Password=test777;Persist Security Info=True;User ID=test;Data Source=PostgreSQL35W;Initial Catalog=ad-lib
+AddMode=3
+RemoveMode=1
+UpdateMode=2
+ViewMode=0
+LeftQuote="
+RightQuote="
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=VARCHAR(255)
+LibraryDatabaseType=
+LibraryDatabasePath=
+DatabasePathRelative=0
+TopPanelCollapsed=0
+LibrarySearchPath=
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=0
+SchemaName=ALTIUM
+LastFocusedTable=adlib
+[Table1]
+SchemaName=
+TableName=adlib
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table2]
+SchemaName=
+TableName=categories
+Enabled=False
+UserWhere=0
+UserWhereText=
+[Table3]
+SchemaName=
+TableName=components
+Enabled=False
+UserWhere=0
+UserWhereText=
+[Table4]
+SchemaName=
+TableName=footprint_3d_models
+Enabled=False
+UserWhere=0
+UserWhereText=
+[Table5]
+SchemaName=
+TableName=footprints
+Enabled=False
+UserWhere=0
+UserWhereText=
+[Table6]
+SchemaName=
+TableName=manufacturers
+Enabled=False
+UserWhere=0
+UserWhereText=
+[Table7]
+SchemaName=
+TableName=package_types
+Enabled=False
+UserWhere=0
+UserWhereText=
+[Table8]
+SchemaName=
+TableName=symbols
+Enabled=False
+UserWhere=0
+UserWhereText=
+[Table9]
+SchemaName=
+TableName=users
+Enabled=False
+UserWhere=0
+UserWhereText=
+[FieldMap1]
+Options=FieldName=adlib.ID|TableNameOnly=adlib|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=adlib.Description|TableNameOnly=adlib|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=adlib.Library Path|TableNameOnly=adlib|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=adlib.Library Ref|TableNameOnly=adlib|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap5]
+Options=FieldName=adlib.Footprint Path|TableNameOnly=adlib|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=adlib.Footprint Ref|TableNameOnly=adlib|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=adlib.Footprint Path 2|TableNameOnly=adlib|FieldNameOnly=Footprint Path 2|FieldType=1|ParameterName=[Footprint Path 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=adlib.Footprint Ref 2|TableNameOnly=adlib|FieldNameOnly=Footprint Ref 2|FieldType=1|ParameterName=[Footprint Ref 2]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=adlib.Footprint Path 3|TableNameOnly=adlib|FieldNameOnly=Footprint Path 3|FieldType=1|ParameterName=[Footprint Path 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=adlib.Footprint Ref 3|TableNameOnly=adlib|FieldNameOnly=Footprint Ref 3|FieldType=1|ParameterName=[Footprint Ref 3]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
