@@ -1,0 +1,511 @@
+[
+    {
+        "id": 1,
+        "manufacturer": "Analog Devices, Inc.",
+        "name_en": "ADI",
+        "name_cn": "亚德诺半导体",
+        "is_chinese": false,
+        "logo": "manufactures/logo/1.png",
+        "website": "https://www.analog.com/cn/index.html",
+        "description": "模拟 电源 接口 传感器"
+    },
+    {
+        "id": 2,
+        "manufacturer": "Texas Instruments Incorporated",
+        "name_en": "TI",
+        "name_cn": "德州仪器",
+        "is_chinese": false,
+        "logo": "manufactures/logo/2.png",
+        "website": "https://www.ti.com.cn/",
+        "description": "模拟 嵌入式 电源 接口 电机驱动 无线连接"
+    },
+    {
+        "id": 3,
+        "manufacturer": "国巨股份有限公司",
+        "name_en": "YAGEO",
+        "name_cn": "国巨",
+        "is_chinese": true,
+        "logo": "manufactures/logo/3.png",
+        "website": "http://www.yageo.com/",
+        "description": "厚膜薄膜电阻、贴片电容电感等"
+    },
+    {
+        "id": 4,
+        "manufacturer": "株式会社村田制作所",
+        "name_en": "Murata",
+        "name_cn": "村田",
+        "is_chinese": false,
+        "logo": "manufactures/logo/4.png",
+        "website": "http://www.murata.com",
+        "description": " 独石陶瓷电容器、SAW滤波器、陶瓷振荡子、压电传感器、陶瓷滤波器、 压电蜂鸣器等等"
+    },
+    {
+        "id": 5,
+        "manufacturer": "厚声电子工业有限公司",
+        "name_en": "UNI-ROYAL",
+        "name_cn": "厚声",
+        "is_chinese": true,
+        "logo": "manufactures/logo/5.png",
+        "website": "http://www.uni-royal.cn/",
+        "description": "晶片及网络型电阻器、传统涂装型电阻器、传统水泥型电阻器、功率型电阻器等高品质稳定电阻"
+    },
+    {
+        "id": 6,
+        "manufacturer": "安森美半导体",
+        "name_en": "onsemi",
+        "name_cn": "安森美",
+        "is_chinese": false,
+        "logo": "manufactures/logo/6.png",
+        "website": "http://www.onsemi.cn/",
+        "description": "电源管理、模拟、传感器、逻辑、时序、互通互联、分立、系统单芯片(SoC)及定制器件阵容"
+    },
+    {
+        "id": 7,
+        "manufacturer": "恩智浦（NXP）半导体",
+        "name_en": "NXP",
+        "name_cn": "恩智浦",
+        "is_chinese": false,
+        "logo": "manufactures/logo/7.png",
+        "website": "https://www.nxp.com.cn/",
+        "description": "射频、模拟、电源管理、接口、安全和数字处理"
+    },
+    {
+        "id": 8,
+        "manufacturer": "深圳市必易微电子股份有限公司",
+        "name_en": "Kiwi",
+        "name_cn": "必易微",
+        "is_chinese": true,
+        "logo": "manufactures/logo/8.png",
+        "website": "http://www.kiwiinst.com/",
+        "description": "DCDC，LDO，BMS，锂电充电"
+    },
+    {
+        "id": 9,
+        "manufacturer": "Microchip Technology Incorporated",
+        "name_en": "MICROCHIP",
+        "name_cn": "美国微芯",
+        "is_chinese": false,
+        "logo": "manufactures/logo/9.png",
+        "website": "http://www.microchip.com/",
+        "description": "单片机和模拟半导体"
+    },
+    {
+        "id": 10,
+        "manufacturer": "瑞萨电子",
+        "name_en": "RENESAS/IDT",
+        "name_cn": "瑞萨",
+        "is_chinese": false,
+        "logo": "manufactures/logo/10.png",
+        "website": "http://cn.renesas.com/",
+        "description": "MCU 系统LSI 模拟和功率半导体器件"
+    },
+    {
+        "id": 11,
+        "manufacturer": "意法半导体",
+        "name_en": "ST",
+        "name_cn": "意法半导体",
+        "is_chinese": false,
+        "logo": "manufactures/logo/11.png",
+        "website": "http://www.stmicroelectronics.com.cn/",
+        "description": "专用模拟芯片和电源转换芯片"
+    },
+    {
+        "id": 12,
+        "manufacturer": "英飞凌科技有限公司",
+        "name_en": "Infineon",
+        "name_cn": "英飞凌",
+        "is_chinese": false,
+        "logo": "manufactures/logo/12.png",
+        "website": "http://www.infineon.com/",
+        "description": "模拟和混合信号、射频、功率以及嵌入式控制"
+    },
+    {
+        "id": 13,
+        "manufacturer": "瑞芯微电子股份有限公司",
+        "name_en": "Rockchip",
+        "name_cn": "瑞芯微",
+        "is_chinese": true,
+        "logo": "manufactures/logo/13.png",
+        "website": "http://www.rock-chips.com/",
+        "description": "系统级芯片、模拟电路芯片设计和算法研究"
+    },
+    {
+        "id": 14,
+        "manufacturer": "南京沁恒微电子股份有限公司",
+        "name_en": "WCH",
+        "name_cn": "南京沁恒",
+        "is_chinese": true,
+        "logo": "manufactures/logo/14.png",
+        "website": "http://wch.cn/",
+        "description": "USB/蓝牙/以太网接口芯片和连接型/互联型/无线型MCU，产品侧重于连接、联网和控制"
+    },
+    {
+        "id": 15,
+        "manufacturer": "普冉半导体(上海)股份有限公司",
+        "name_en": "PUYA",
+        "name_cn": "普冉",
+        "is_chinese": true,
+        "logo": "manufactures/logo/15.png",
+        "website": "http://www.puyasemi.com/",
+        "description": "NOR型串行Flash存储器产品"
+    },
+    {
+        "id": 16,
+        "manufacturer": "乐鑫信息科技（上海）有限公司",
+        "name_en": "ESPRESSIF",
+        "name_cn": "乐鑫",
+        "is_chinese": true,
+        "logo": "manufactures/logo/16.png",
+        "website": "https://www.espressif.com.cn/zh-hans/",
+        "description": " Wi-Fi 和蓝牙技术的无线系统级芯片"
+    },
+    {
+        "id": 17,
+        "manufacturer": "深圳市富满电子集团股份有限公司",
+        "name_en": "FM",
+        "name_cn": "富满",
+        "is_chinese": true,
+        "logo": "manufactures/logo/17.png",
+        "website": "http://www.superchip.cn",
+        "description": "电源管理、LED驱动、MOSFET等"
+    },
+    {
+        "id": 18,
+        "manufacturer": "线艺",
+        "name_en": "Coilcraft",
+        "name_cn": "线艺",
+        "is_chinese": false,
+        "logo": "manufactures/logo/18.png",
+        "website": "http://www.coilcraft.com/",
+        "description": "射频和功率电感"
+    },
+    {
+        "id": 19,
+        "manufacturer": "亿光电子工业股份有限公司",
+        "name_en": "EVERLIGHT",
+        "name_cn": "亿光",
+        "is_chinese": true,
+        "logo": "manufactures/logo/19.png",
+        "website": "https://www.everlight.com.cn/",
+        "description": "LED"
+    },
+    {
+        "id": 20,
+        "manufacturer": "北京兆易创新科技股份有限公司",
+        "name_en": "GigaDevice",
+        "name_cn": "兆易创新",
+        "is_chinese": true,
+        "logo": "manufactures/logo/20.png",
+        "website": "http://www.gigadevice.com/",
+        "description": "高速和低功耗存储器"
+    },
+    {
+        "id": 21,
+        "manufacturer": "美台半导体",
+        "name_en": "DIODES",
+        "name_cn": "美台",
+        "is_chinese": false,
+        "logo": "manufactures/logo/21.png",
+        "website": "http://www.diodes.com/",
+        "description": "二极管、整流器、晶体管、MOSFET、GPP桥、GPP整流器、保护装置、特定功能数组、单闸极逻辑、放大器与比较器、霍尔效应与温度传感器、电源管理设备，包括AC-DC 转换器与控制器、DC-DC 开关与线性稳压器，以及电压参考与
+LED驱动器"
+    },
+    {
+        "id": 23,
+        "manufacturer": "罗伯特·博世有限公司（BOSCH）",
+        "name_en": "BOSCH",
+        "name_cn": "博世",
+        "is_chinese": false,
+        "logo": "manufactures/logo/23.png",
+        "website": "https://www.bosch-sensortec.com/",
+        "description": "传感器、汽车与智能交通技术、工业技术、消费品和能源及建筑技术、"
+    },
+    {
+        "id": 24,
+        "manufacturer": "三星集团",
+        "name_en": "SAMSUNG",
+        "name_cn": "三星",
+        "is_chinese": false,
+        "logo": "manufactures/logo/24.png",
+        "website": "https://www.samsungsem.com/cn/index.do",
+        "description": "半导体产品、、电容、电感、TFT-LCD、显示器、手机"
+    },
+    {
+        "id": 25,
+        "manufacturer": "TDK株式会社",
+        "name_en": "TDK",
+        "name_cn": "TDK",
+        "is_chinese": false,
+        "logo": "manufactures/logo/25.png",
+        "website": "https://www.china.tdk.com.cn/",
+        "description": "电感、RF系列产品、保护器件、传感器、变压器、铁氧体"
+    },
+    {
+        "id": 26,
+        "manufacturer": "京瓷集团",
+        "name_en": "Kyocera AVX",
+        "name_cn": "京瓷",
+        "is_chinese": false,
+        "logo": "manufactures/logo/26.png",
+        "website": "https://www.kyocera-avx.com/",
+        "description": "陶瓷和钽电容器、薄膜电容器、定时器件、铁氧体器件和集成电路"
+    },
+    {
+        "id": 27,
+        "manufacturer": "立得微电子(惠州)有限公司",
+        "name_en": "LEADER",
+        "name_cn": "立得",
+        "is_chinese": true,
+        "logo": "manufactures/logo/27.png",
+        "website": "http://www.leader-cn.cn",
+        "description": "扁平马达、线性马达、无刷马达等高性能电机"
+    },
+    {
+        "id": 28,
+        "manufacturer": "南京时恒电子科技有限公司",
+        "name_en": "时恒",
+        "name_cn": "时恒",
+        "is_chinese": true,
+        "logo": "manufactures/logo/28.png",
+        "website": "http://www.shiheng.com.cn/",
+        "description": "NTC热敏电阻及其温度传感器"
+    },
+    {
+        "id": 29,
+        "manufacturer": "游隼半导体",
+        "name_en": "pSemi",
+        "name_cn": "游隼",
+        "is_chinese": false,
+        "logo": "manufactures/logo/29.png",
+        "website": "http://www.psemi.com/",
+        "description": "射频相关产品、村田旗下、"
+    },
+    {
+        "id": 30,
+        "manufacturer": "华新科技",
+        "name_en": "Walsin",
+        "name_cn": "华新科",
+        "is_chinese": false,
+        "logo": "manufactures/logo/30.png",
+        "website": "https://www.passivecomponent.com/",
+        "description": "积层陶瓷晶片电容(MLCC)及晶片排容(MLCC Array)、晶片电阻(Chip-R)及晶片排阻(Chip-R Array)、 射频元件(RF Components) 、圆板电容(DISC)、氧化锌变阻器(Varistor)、电感(Inductor) 及晶片保险丝(Chip Fuse)"
+    },
+    {
+        "id": 31,
+        "manufacturer": "深圳市信驰达科技有限公司",
+        "name_en": "RF-star",
+        "name_cn": "信驰达",
+        "is_chinese": true,
+        "logo": "manufactures/logo/31.png",
+        "website": "https://www.szrfstar.com",
+        "description": "无线射频解决方案提供商及低功耗射频模组"
+    },
+    {
+        "id": 32,
+        "manufacturer": "深圳市瑞隆源电子有限公司",
+        "name_en": "RUILON",
+        "name_cn": "瑞隆源",
+        "is_chinese": true,
+        "logo": "manufactures/logo/32.png",
+        "website": "https://www.ruilon.com.cn/",
+        "description": "陶瓷气体放电管、压敏电阻、瞬态抑制二极管、静电保护器件、防雷器、自恢复保险丝"
+    },
+    {
+        "id": 33,
+        "manufacturer": "精工仪器有限公司",
+        "name_en": "Seiko",
+        "name_cn": "精工",
+        "is_chinese": false,
+        "logo": "manufactures/logo/33.png",
+        "website": "https://www.sii.co.jp/cn/quartz/",
+        "description": "晶振、精密计时器"
+    },
+    {
+        "id": 34,
+        "manufacturer": "威世（VISHAY）集团",
+        "name_en": "VISHAY",
+        "name_cn": "威世",
+        "is_chinese": false,
+        "logo": "manufactures/logo/34.png",
+        "website": "https://www.vishay.com/en/company/",
+        "description": "分离式半导体和无源电子器件"
+    },
+    {
+        "id": 35,
+        "manufacturer": "skyworks思佳讯半导体",
+        "name_en": "skyworks",
+        "name_cn": "思佳讯",
+        "is_chinese": false,
+        "logo": "manufactures/logo/35.png",
+        "website": "https://www.skyworksinc.com/",
+        "description": "放大器、衰减器、检波器、二极管、定向耦合器、前端模块、混合微电路、基础架构RF子系统、混频器/解调器、移相器、PLLs/合成器/VCO、功率分配器/合成器、接收器、开关和技术陶瓷制品"
+    },
+    {
+        "id": 36,
+        "manufacturer": "湖北泰晶电子科技股份有限公司",
+        "name_en": "TKD",
+        "name_cn": "泰晶",
+        "is_chinese": true,
+        "logo": "manufactures/logo/36.png",
+        "website": "http://www.sztkd.com/",
+        "description": "石英频率控制元器件"
+    },
+    {
+        "id": 37,
+        "manufacturer": "爱普生（中国）有限公司",
+        "name_en": "EPSON",
+        "name_cn": "爱普生",
+        "is_chinese": false,
+        "logo": "manufactures/logo/37.png",
+        "website": "https://www5.epsondevice.com/en/",
+        "description": "晶振"
+    },
+    {
+        "id": 38,
+        "manufacturer": "基美公司(KEMET)",
+        "name_en": "KEMET",
+        "name_cn": "基美",
+        "is_chinese": false,
+        "logo": "manufactures/logo/38.png",
+        "website": "http://www.kemet.com/",
+        "description": "电容器、无源电子、有机固态电容、薄膜与电解电容"
+    },
+    {
+        "id": 39,
+        "manufacturer": "深圳顺络电子股份有限公司",
+        "name_en": "Sunlord",
+        "name_cn": "顺络",
+        "is_chinese": true,
+        "logo": "manufactures/logo/39.png",
+        "website": "http://www.sunlordinc.com/",
+        "description": "叠层片式电感器、绕线片式电感器、共模扼流器、压敏电阻器、NTC热敏电阻器、LC滤波器、各类天线、NFC磁片、无线充电线圈组件、电容、电子变压器"
+    },
+    {
+        "id": 40,
+        "manufacturer": "安伦",
+        "name_en": "Anaren",
+        "name_cn": "安伦",
+        "is_chinese": false,
+        "logo": "manufactures/logo/40.png",
+        "website": "https://www.ttm.com/",
+        "description": "高频射频和微波微电子"
+    },
+    {
+        "id": 41,
+        "manufacturer": "Mini-Circuits",
+        "name_en": "Mini-Circuits",
+        "name_cn": "Mini-Circuits",
+        "is_chinese": false,
+        "logo": "manufactures/logo/41.png",
+        "website": "https://www.minicircuits.com/",
+        "description": "射频、中频、微波信号处理器件、"
+    },
+    {
+        "id": 42,
+        "manufacturer": "Melexis",
+        "name_en": "Melexis",
+        "name_cn": "迈来芯",
+        "is_chinese": false,
+        "logo": "manufactures/logo/42.png",
+        "website": "https://www.melexis.com/zh",
+        "description": "迈来芯设计提供微电子解决方案。这些解决方案易于集成，富有创新技术，极具竞争优势，推动简化客户的工作。我们的技术使汽车和其他产品更智能、更安全、更环保。我们的传感器芯片从模拟世界捕捉数据，并以数字方式输出
+。我们的驱动芯片确保客户的产品有效运转。我们始终有计划地运筹当下把握未来，在正确的时间提供正确的产品，这样我们的客户就能在竞争中脱颖而出。这就是我们倡导的启发工程。"
+    },
+    {
+        "id": 43,
+        "manufacturer": "HRS(广濑)",
+        "name_en": "HRS",
+        "name_cn": "广濑",
+        "is_chinese": false,
+        "logo": "manufactures/logo/43.png",
+        "website": "https://www.hirose.com/cn/",
+        "description": "高质量，多品种，革新的产品的在连接器"
+    },
+    {
+        "id": 44,
+        "manufacturer": "兆星精密电子（深圳）有限公司",
+        "name_en": "Megastar",
+        "name_cn": "兆星",
+        "is_chinese": true,
+        "logo": "manufactures/logo/44.png",
+        "website": "http://www.zx-precise.com/",
+        "description": "兆星精密电子（深圳）有限公司专注致力于连接器、开关、线材辅料等研发、生产和销售"
+    },
+    {
+        "id": 45,
+        "manufacturer": "深圳市华灿天禄电子有限公司",
+        "name_en": "HCTL",
+        "name_cn": "华灿天禄",
+        "is_chinese": true,
+        "logo": "manufactures/logo/45.png",
+        "website": "http://www.hctldz.com/",
+        "description": "深圳市华灿天禄电子有限公司是一家集研发、生产、销售及服务于一体的高科技企业。公司座落于深圳的宝安区。 深圳市华灿天禄电子有限公司自成立以来一直专注于各类接插件、TYPE-C、船形开关等系列产品研发、生产和销售 
+。公司拥有一批专业的技术人员和完善品质监控体系，先后引用国内外先进的检测仪器、生产设备来保障产品质量。"
+    },
+    {
+        "id": 46,
+        "manufacturer": "深圳市金航标电子有限公司",
+        "name_en": "kinghelm",
+        "name_cn": "金航标",
+        "is_chinese": true,
+        "logo": "manufactures/logo/46.png",
+        "website": "http://www.bds666.com/",
+        "description": "产品包括北斗GPS天线、射频连接线、射频端子， WiFi、蓝牙、FPC、NB-IoT、LORA、Zigbee系列天线、GSM通信天线系列、RFID射频标签、射频转接线、微型板端连接器、微波段天线、车规级IPEX、SMA、FAKRA射频座子、同轴电缆
+等产品;随着公司发展壮大，金航标研发生产高速数据信号传输连接器、精密连接器、接插件等产品。包括板端线端、线对板、线对线、板对板和刺破等各类型连接器，与SIM卡座、USB C、TYPE-C、HDMI、RJ45接口接插件、PCB板连接端子、排针、排母、插拔
+件、顶针、压线端子等产品。"
+    },
+    {
+        "id": 47,
+        "manufacturer": "讯普电子科技有限公司",
+        "name_en": "XUNPU",
+        "name_cn": "讯普",
+        "is_chinese": true,
+        "logo": "manufactures/logo/47.png",
+        "website": "https://www.xunpu.com.cn/",
+        "description": "讯普的产品包括SD卡座、TF卡座、SIM卡座、多合一卡座、轻触开关、按动开关、微动开关、检测开关、拨码开关、按键开关、滑动开关、USB插座、耳机插座、FPC插座、PCIE插座等可靠性连接器和定制部件, 可应用于汽车、工业 
+、物联网、可穿戴设备、医疗、电信、消费品和 POS 终端。 "
+    },
+    {
+        "id": 48,
+        "manufacturer": "深圳市蝙蝠无线技术有限公司",
+        "name_en": "BAT WIRELESS",
+        "name_cn": "蝙蝠无线",
+        "is_chinese": true,
+        "logo": "manufactures/logo/48.png",
+        "website": "http://www.batwireless.com/",
+        "description": "深圳市蝙蝠无线技术有限公司是一家RF无线、射频器件、天线配件等物联网RF射频相关的研发、调试、定制生产、销售企业。 如FPC天线、PCB天线、弹簧天线、胶棒天线、天线配件等。"
+    },
+    {
+        "id": 49,
+        "manufacturer": "珠海全志科技股份有限公司",
+        "name_en": "Allwinner",
+        "name_cn": "全志",
+        "is_chinese": true,
+        "logo": "manufactures/logo/49.png",
+        "website": "https://www.allwinnertech.com/",
+        "description": "全志科技（Allwinner Technology，是领先的智能应用处理器SoC和智能模拟芯片设计厂商。 全志科技在超高清视频编解码、高性能CPU/GPU多核整合、先进工艺的高集成度、超低功耗等方面处于业界领先水平，产品领域覆盖车联 
+网、智能硬件、智能家电、服务机器人、无人机、虚拟现实、平板电脑、OTT盒子、移动互联网设备以及智能电源管理等。"
+    },
+    {
+        "id": 50,
+        "manufacturer": "深圳市首韩科技有限公司",
+        "name_en": "SHOU HAN",
+        "name_cn": "首韩",
+        "is_chinese": true,
+        "logo": "manufactures/logo/50.png",
+        "website": "http://www.so-han.com/index.html",
+        "description": "首韩是一家与韩国优秀同行有着技术交流合作的企业，选用韩国进口材质，引入自动化先进技术，专业致力于研发生产：轻触、USB连接器、针座、拨动、DC、耳机插座电子元器件。首韩优势是：品质好、品类全、服务好、提供技 
+术解决方案。产品可通过CE、REACH、ROHS产品认证。"
+    },
+    {
+        "id": 51,
+        "manufacturer": "新唐科技股份有限公司",
+        "name_en": "NUVOTON",
+        "name_cn": "新唐",
+        "is_chinese": true,
+        "logo": "manufactures/logo/51.png",
+        "website": "https://www.nuvoton.com.cn/",
+        "description": "新唐科技承袭华邦电子过往于计算机逻辑IC相关产品领域深耕多年的经验，在主板用输入输出控制器上拥有高市占率，为因应计算机系统发展渐趋多元化之需求，陆续推出如强化计算机安全机制之TPM芯片、Sideshow芯片等产品。 
+消费电子产品则专注于消费性IC、语音IC、多媒体IC等产品之设计研发，"
+    }
+]
