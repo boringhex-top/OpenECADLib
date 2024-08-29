@@ -1,182 +1,446 @@
-[
-    {
-        "id": 1,
-        "category": "others",
-        "description": "unknown",
-        "parent_id": null
-    },
-    {
-        "id": 2,
-        "category": "resistors",
-        "description": "电阻",
-        "parent_id": null
-    },
-    {
-        "id": 3,
-        "category": "capacitors",
-        "description": "电容",
-        "parent_id": null
-    },
-    {
-        "id": 4,
-        "category": "inductors",
-        "description": "电感",
-        "parent_id": null
-    },
-    {
-        "id": 5,
-        "category": "beads",
-        "description": "磁珠",
-        "parent_id": null
-    },
-    {
-        "id": 6,
-        "category": "transformers",
-        "description": "变压器 互感器",
-        "parent_id": null
-    },
-    {
-        "id": 7,
-        "category": "relays",
-        "description": "继电器",
-        "parent_id": null
-    },
-    {
-        "id": 8,
-        "category": "diodes",
-        "description": "二极管",
-        "parent_id": null
-    },
-    {
-        "id": 9,
-        "category": "rectifier bridges",
-        "description": "整流桥",
-        "parent_id": 8
-    },
-    {
-        "id": 10,
-        "category": "BJTs",
-        "description": "双极型晶体管 三极管",
-        "parent_id": null
-    },
-    {
-        "id": 11,
-        "category": "FETs",
-        "description": "场效应晶体管",
-        "parent_id": null
-    },
-    {
-        "id": 12,
-        "category": "thyristors",
-        "description": "晶闸管",
-        "parent_id": null
-    },
-    {
-        "id": 13,
-        "category": "IGBTs",
-        "description": "隔离栅双极型晶体管",
-        "parent_id": null
-    },
-    {
-        "id": 14,
-        "category": "crystals",
-        "description": "晶振",
-        "parent_id": null
-    },
-    {
-        "id": 15,
-        "category": "resonators",
-        "description": "谐振",
-        "parent_id": null
-    },
-    {
-        "id": 16,
-        "category": "ICs",
-        "description": "集成电路",
-        "parent_id": null
-    },
-    {
-        "id": 17,
-        "category": "optocouplers",
-        "description": "光耦",
-        "parent_id": null
-    },
-    {
-        "id": 18,
-        "category": "fuses",
-        "description": "保险丝",
-        "parent_id": null
-    },
-    {
-        "id": 19,
-        "category": "switches",
-        "description": "开关",
-        "parent_id": null
-    },
-    {
-        "id": 20,
-        "category": "buttons",
-        "description": "按键开关",
-        "parent_id": 19
-    },
-    {
-        "id": 21,
-        "category": "connectors",
-        "description": "连接器",
-        "parent_id": null
-    },
-    {
-        "id": 22,
-        "category": "plugs",
-        "description": "插头",
-        "parent_id": 21
-    },
-    {
-        "id": 23,
-        "category": "sockets",
-        "description": "插座",
-        "parent_id": 21
-    },
-    {
-        "id": 24,
-        "category": "photoelectrics",
-        "description": "光电效应器件",
-        "parent_id": null
-    },
-    {
-        "id": 25,
-        "category": "thermoelectrics",
-        "description": "热电效应器件",
-        "parent_id": null
-    },
-    {
-        "id": 26,
-        "category": "electromechanicals",
-        "description": "机械电效应器件",
-        "parent_id": null
-    },
-    {
-        "id": 27,
-        "category": "piezoelectrics",
-        "description": "压电器件",
-        "parent_id": 26
-    },
-    {
-        "id": 28,
-        "category": "motors",
-        "description": "马达",
-        "parent_id": 26
-    },
-    {
-        "id": 29,
-        "category": "LEDs",
-        "description": "发光二极管",
-        "parent_id": 8
-    },
-    {
-        "id": 30,
-        "category": "modules",
-        "description": "模块 模组",
-        "parent_id": null
+{
+    "Category": {
+        "Virtual": {
+            "name": "Virtual",
+            "description": "虚拟物品 虚拟资产",
+            "default_location": 0,
+            "default_keywords": "virtual 虚拟",
+            "parent": null,
+            "structural": true,
+            "icon": "",
+            "subcategories": {
+                "3DModel": {
+                    "name": "3DModel",
+                    "description": "3D模型库",
+                    "default_location": 0,
+                    "default_keywords": "3D 模型",
+                    "parent": "Virtual",
+                    "structural": false
+                },
+                "ADFootprint": {
+                    "name": "ADFootprint",
+                    "description": "AltiumDesigner PCB封装图形库",
+                    "default_location": 0,
+                    "default_keywords": "ad altium designer footprint 封装",
+                    "parent": "Virtual",
+                    "structural": false
+                },
+                "ADSymbol": {
+                    "name": "ADSymbol",
+                    "description": "AltiumDesigner 原理图符号库",
+                    "default_location": 0,
+                    "default_keywords": "ad altium designer symbol 符号",
+                    "parent": "Virtual",
+                    "structural": false
+                },
+                "HW": {
+                    "name": "HW",
+                    "description": "硬件设计库 参考设计 公共构建块 CBB",
+                    "default_location": 0,
+                    "default_keywords": "hardware 硬件",
+                    "parent": "Virtual",
+                    "structural": false
+                },
+                "SW": {
+                    "name": "SW",
+                    "description": "软件库",
+                    "default_location": 0,
+                    "default_keywords": "software 软件",
+                    "parent": "Virtual",
+                    "structural": false
+                },
+                "Mechanical": {
+                    "name": "Mechanical",
+                    "description": "机械设计库 结构设计库",
+                    "default_location": 0,
+                    "default_keywords": "mechanical 机械设计 结构设计",
+                    "parent": "Virtual",
+                    "structural": false
+                },
+                "Media": {
+                    "name": "Media",
+                    "description": "多媒体库 图片 视频 音频",
+                    "default_location": 0,
+                    "default_keywords": "media 多媒体",
+                    "parent": "Virtual",
+                    "structural": false
+                },
+                "Document": {
+                    "name": "Document",
+                    "description": "文档库",
+                    "default_location": 0,
+                    "default_keywords": "document 文档",
+                    "parent": "Virtual",
+                    "structural": false
+                },
+                "Other": {
+                    "name": "Other",
+                    "description": "其他虚拟物品",
+                    "default_location": 0,
+                    "default_keywords": "other 其他",
+                    "parent": "Virtual",
+                    "structural": false
+                }
+            }
+        },
+        "Electrical": {
+            "name": "Electrical",
+            "description": "电气零部件 电子元器件 电路组件",
+            "default_location": 0,
+            "default_keywords": "electrical 电子元器件",
+            "parent": null,
+            "structural": true,
+            "icon": "",
+            "subcategories": {
+                "Component": {
+                    "name": "Component",
+                    "description": "电子元器件",
+                    "default_location": 0,
+                    "default_keywords": "component 元器件",
+                    "parent": "Electrical",
+                    "structural": true,
+                    "icon": "",
+                    "subcategories": {
+                        "IC": {
+                            "name": "IC",
+                            "description": "集成电路",
+                            "default_location": 0,
+                            "default_keywords": "ic 集成电路",
+                            "parent": "Component",
+                            "structural": false
+                        },
+                        "Resistor": {
+                            "name": "Resistor",
+                            "description": "电阻",
+                            "default_location": 0,
+                            "default_keywords": "resistor 电阻",
+                            "parent": "Component",
+                            "structural": false
+                        },
+                        "Capacitor": {
+                            "name": "Capacitor",
+                            "description": "电容",
+                            "default_location": 0,
+                            "default_keywords": "capacitor 电容",
+                            "parent": "Component",
+                            "structural": false
+                        },
+                        "Inductor": {
+                            "name": "Inductor",
+                            "description": "电感",
+                            "default_location": 0,
+                            "default_keywords": "inductor 电感",
+                            "parent": "Component",
+                            "structural": false
+                        },
+                        "Diode": {
+                            "name": "Diode",
+                            "description": "二极管",
+                            "default_location": 0,
+                            "default_keywords": "diode 二极管",
+                            "parent": "Component",
+                            "structural": false
+                        },
+                        "Transistor": {
+                            "name": "Transistor",
+                            "description": "晶体管 三极管 FET 晶闸管",
+                            "default_location": 0,
+                            "default_keywords": "transistor 晶体管",
+                            "parent": "Component",
+                            "structural": false
+                        },
+                        "Connector": {
+                            "name": "Connector",
+                            "description": "连接器 接插件",
+                            "default_location": 0,
+                            "default_keywords": "connector 连接器",
+                            "parent": "Component",
+                            "structural": false
+                        },
+                        "Switch": {
+                            "name": "Switch",
+                            "description": "开关 按键",
+                            "default_location": 0,
+                            "default_keywords": "switch 开关",
+                            "parent": "Component",
+                            "structural": false
+                        },
+                        "Relay": {
+                            "name": "Relay",
+                            "description": "继电器",
+                            "default_location": 0,
+                            "default_keywords": "relay 继电器",
+                            "parent": "Component",
+                            "structural": false
+                        },
+                        "Fuse": {
+                            "name": "Fuse",
+                            "description": "保险丝 保护器件",
+                            "default_location": 0,
+                            "default_keywords": "fuse 保险丝",
+                            "parent": "Component",
+                            "structural": false
+                        },
+                        "Transformer": {
+                            "name": "Transformer",
+                            "description": "变压器",
+                            "default_location": 0,
+                            "default_keywords": "transformer 变压器",
+                            "parent": "Component",
+                            "structural": false
+                        },
+                        "Crystal": {
+                            "name": "Crystal",
+                            "description": "晶振 晶体 陶振 谐振器 振荡器",
+                            "default_location": 0,
+                            "default_keywords": "crystal 晶振",
+                            "parent": "Component",
+                            "structural": false
+                        },
+                        "Module": {
+                            "name": "Module",
+                            "description": "模块 模组",
+                            "default_location": 0,
+                            "default_keywords": "module 模块",
+                            "parent": "Component",
+                            "structural": false
+                        },
+                        "Other": {
+                            "name": "Other",
+                            "description": "其它电子元器件",
+                            "default_location": 0,
+                            "default_keywords": "other 其它",
+                            "parent": "Component",
+                            "structural": false
+                        }
+                    }
+                },
+                "Cable": {
+                    "name": "Cable",
+                    "description": "线束 线缆",
+                    "default_location": 0,
+                    "default_keywords": "cable 电缆",
+                    "parent": "Electrical",
+                    "structural": false
+                },
+                "PCB": {
+                    "name": "PCB",
+                    "description": "PCB 印制电路板",
+                    "default_location": 0,
+                    "default_keywords": "pcb 电路板",
+                    "parent": "Electrical",
+                    "structural": false
+                },
+                "PCBA": {
+                    "name": "PCBA",
+                    "description": "PCBA 已组装电路板",
+                    "default_location": 0,
+                    "default_keywords": "pcba 电路板",
+                    "parent": "Electrical",
+                    "structural": false
+                },
+                "Other": {
+                    "name": "Other",
+                    "description": "其它电气零部件",
+                    "default_location": 0,
+                    "default_keywords": "other 其它",
+                    "parent": "Electrical",
+                    "structural": false
+                }
+            }
+        },
+        "Mechanical": {
+            "name": "Mechanical",
+            "description": "机械零部件 结构件 机械构件",
+            "default_location": 0,
+            "default_keywords": "mechanical 机械结构件",
+            "parent": null,
+            "structural": true,
+            "icon": "",
+            "subcategories": {
+                "Fastener": {
+                    "name": "Fastener",
+                    "description": "紧固件",
+                    "default_location": 0,
+                    "default_keywords": "fastener 紧固件",
+                    "parent": "Mechanical",
+                    "structural": false
+                },
+                "Bearing": {
+                    "name": "Bearing",
+                    "description": "轴承",
+                    "default_location": 0,
+                    "default_keywords": "bearing 轴承",
+                    "parent": "Mechanical",
+                    "structural": false
+                },
+                "Gear": {
+                    "name": "Gear",
+                    "description": "齿轮",
+                    "default_location": 0,
+                    "default_keywords": "gear 齿轮",
+                    "parent": "Mechanical",
+                    "structural": false
+                },
+                "Spring": {
+                    "name": "Spring",
+                    "description": "弹簧",
+                    "default_location": 0,
+                    "default_keywords": "spring 弹簧",
+                    "parent": "Mechanical",
+                    "structural": false
+                },
+                "Shaft": {
+                    "name": "Shaft",
+                    "description": "轴",
+                    "default_location": 0,
+                    "default_keywords": "shaft 轴",
+                    "parent": "Mechanical",
+                    "structural": false
+                },
+                "Seal": {
+                    "name": "Seal",
+                    "description": "密封件",
+                    "default_location": 0,
+                    "default_keywords": "seal 密封件",
+                    "parent": "Mechanical",
+                    "structural": false
+                },
+                "Hose": {
+                    "name": "Hose",
+                    "description": "软管",
+                    "default_location": 0,
+                    "default_keywords": "hose 软管",
+                    "parent": "Mechanical",
+                    "structural": false
+                },
+                "Enclosure": {
+                    "name": "Enclosure",
+                    "description": "外壳 机箱",
+                    "default_location": 0,
+                    "default_keywords": "enclosure 外壳",
+                    "parent": "Mechanical",
+                    "structural": false
+                },
+                "Other": {
+                    "name": "Other",
+                    "description": "其它机械零部件",
+                    "default_location": 0,
+                    "default_keywords": "other 其它",
+                    "parent": "Mechanical",
+                    "structural": false
+                }
+            }
+        },
+        "Packaging": {
+            "name": "Packaging",
+            "description": "包装材料 打包材料 附件",
+            "default_location": 0,
+            "default_keywords": "packaging 包装",
+            "parent": null,
+            "structural": true,
+            "icon": "",
+            "subcategories": {
+                "Box": {
+                    "name": "Box",
+                    "description": "包装盒 包装箱",
+                    "default_location": 0,
+                    "default_keywords": "box 盒 箱",
+                    "parent": "Packaging",
+                    "structural": false
+                },
+                "Bag": {
+                    "name": "Bag",
+                    "description": "包装袋",
+                    "default_location": 0,
+                    "default_keywords": "bag 袋",
+                    "parent": "Packaging",
+                    "structural": false
+                },
+                "Tray": {
+                    "name": "Tray",
+                    "description": "托盘",
+                    "default_location": 0,
+                    "default_keywords": "tray 托盘",
+                    "parent": "Packaging",
+                    "structural": false
+                },
+                "Tape": {
+                    "name": "Tape",
+                    "description": "卷带 胶带",
+                    "default_location": 0,
+                    "default_keywords": "tape 卷带 胶带",
+                    "parent": "Packaging",
+                    "structural": false
+                },
+                "Label": {
+                    "name": "Label",
+                    "description": "标签 贴纸",
+                    "default_location": 0,
+                    "default_keywords": "label 标签",
+                    "parent": "Packaging",
+                    "structural": false
+                },
+                "Card": {
+                    "name": "Card",
+                    "description": "卡片 说明书",
+                    "default_location": 0,
+                    "default_keywords": "card 卡片",
+                    "parent": "Packaging",
+                    "structural": false
+                },
+                "Foam": {
+                    "name": "Foam",
+                    "description": "泡沫 泡棉 内衬",
+                    "default_location": 0,
+                    "default_keywords": "foam 泡沫",
+                    "parent": "Packaging",
+                    "structural": false
+                },
+                "Other": {
+                    "name": "Other",
+                    "description": "其它包装材料",
+                    "default_location": 0,
+                    "default_keywords": "other 其它",
+                    "parent": "Packaging",
+                    "structural": false
+                }
+            }
+        },
+        "Product": {
+            "name": "Product",
+            "description": "产品 成品",
+            "default_location": 0,
+            "default_keywords": "product 产品",
+            "parent": null,
+            "structural": true,
+            "icon": "",
+            "subcategories": {
+                "Service": {
+                    "name": "Service",
+                    "description": "服务",
+                    "default_location": 0,
+                    "default_keywords": "service 服务",
+                    "parent": "Product",
+                    "structural": false
+                },
+                "Hardware": {
+                    "name": "Hardware",
+                    "description": "硬件产品",
+                    "default_location": 0,
+                    "default_keywords": "hardware 硬件",
+                    "parent": "Product",
+                    "structural": false
+                },
+                "Software": {
+                    "name": "Software",
+                    "description": "软件产品",
+                    "default_location": 0,
+                    "default_keywords": "software 软件",
+                    "parent": "Product",
+                    "structural": false
+                }
+            }
+        }
     }
-]
+}

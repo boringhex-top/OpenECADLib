@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "category": "others",
+        "description": "unknown",
+        "parent_id": null
+    },
+    {
+        "id": 2,
+        "category": "resistors",
+        "description": "电阻",
+        "parent_id": null
+    },
+    {
+        "id": 3,
+        "category": "capacitors",
+        "description": "电容",
+        "parent_id": null
+    },
+    {
+        "id": 4,
+        "category": "inductors",
+        "description": "电感",
+        "parent_id": null
+    },
+    {
+        "id": 5,
+        "category": "beads",
+        "description": "磁珠",
+        "parent_id": null
+    },
+    {
+        "id": 6,
+        "category": "transformers",
+        "description": "变压器 互感器",
+        "parent_id": null
+    },
+    {
+        "id": 7,
+        "category": "relays",
+        "description": "继电器",
+        "parent_id": null
+    },
+    {
+        "id": 8,
+        "category": "diodes",
+        "description": "二极管",
+        "parent_id": null
+    },
+    {
+        "id": 9,
+        "category": "rectifier bridges",
+        "description": "整流桥",
+        "parent_id": 8
+    },
+    {
+        "id": 10,
+        "category": "BJTs",
+        "description": "双极型晶体管 三极管",
+        "parent_id": null
+    },
+    {
+        "id": 11,
+        "category": "FETs",
+        "description": "场效应晶体管",
+        "parent_id": null
+    },
+    {
+        "id": 12,
+        "category": "thyristors",
+        "description": "晶闸管",
+        "parent_id": null
+    },
+    {
+        "id": 13,
+        "category": "IGBTs",
+        "description": "隔离栅双极型晶体管",
+        "parent_id": null
+    },
+    {
+        "id": 14,
+        "category": "crystals",
+        "description": "晶振",
+        "parent_id": null
+    },
+    {
+        "id": 15,
+        "category": "resonators",
+        "description": "谐振",
+        "parent_id": null
+    },
+    {
+        "id": 16,
+        "category": "ICs",
+        "description": "集成电路",
+        "parent_id": null
+    },
+    {
+        "id": 17,
+        "category": "optocouplers",
+        "description": "光耦",
+        "parent_id": null
+    },
+    {
+        "id": 18,
+        "category": "fuses",
+        "description": "保险丝",
+        "parent_id": null
+    },
+    {
+        "id": 19,
+        "category": "switches",
+        "description": "开关",
+        "parent_id": null
+    },
+    {
+        "id": 20,
+        "category": "buttons",
+        "description": "按键开关",
+        "parent_id": 19
+    },
+    {
+        "id": 21,
+        "category": "connectors",
+        "description": "连接器",
+        "parent_id": null
+    },
+    {
+        "id": 22,
+        "category": "plugs",
+        "description": "插头",
+        "parent_id": 21
+    },
+    {
+        "id": 23,
+        "category": "sockets",
+        "description": "插座",
+        "parent_id": 21
+    },
+    {
+        "id": 24,
+        "category": "photoelectrics",
+        "description": "光电效应器件",
+        "parent_id": null
+    },
+    {
+        "id": 25,
+        "category": "thermoelectrics",
+        "description": "热电效应器件",
+        "parent_id": null
+    },
+    {
+        "id": 26,
+        "category": "electromechanicals",
+        "description": "机械电效应器件",
+        "parent_id": null
+    },
+    {
+        "id": 27,
+        "category": "piezoelectrics",
+        "description": "压电器件",
+        "parent_id": 26
+    },
+    {
+        "id": 28,
+        "category": "motors",
+        "description": "马达",
+        "parent_id": 26
+    },
+    {
+        "id": 29,
+        "category": "LEDs",
+        "description": "发光二极管",
+        "parent_id": 8
+    },
+    {
+        "id": 30,
+        "category": "modules",
+        "description": "模块 模组",
+        "parent_id": null
+    }
+]
